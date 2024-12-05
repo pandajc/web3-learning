@@ -412,7 +412,7 @@ contract Callee {
 }
 contract Caller {
     uint public num;
-    function deleteCall(address _callee, uint _num) public  {
+    function delegateCall(address _callee, uint _num) public  {
         // (bool res, ) = _callee.call{value: msg.value}(abi.encodeWithSignature("setNum(uint256)", _num));
         (bool suc, ) = _callee.delegatecall(abi.encodeWithSelector(Callee.setNum.selector, _num));
         require(suc, "delegatecall failed");

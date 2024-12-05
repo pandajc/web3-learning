@@ -17,3 +17,5 @@ if err != nil {
     return err
 }
 ```
+
+abigen --abi build/Storage.abi --pkg main --type Storage --out Storage.go
