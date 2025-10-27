@@ -133,7 +133,7 @@
 - [chainlink faucets](https://faucets.chain.link/) 领一部分后要求主网有link
 - [sepoliafaucet](https://www.sepoliafaucet.io/) 有限流
 - [quicknode faucet](https://faucet.quicknode.com/ethereum/sepolia) 要求主网有余额
-
+- [bwarelabs faucets](https://bwarelabs.com/faucets/ethereum-sepolia)
 
 ### ERC
 - [ERC20](https://eips.ethereum.org/EIPS/eip-20)
