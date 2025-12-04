@@ -74,6 +74,9 @@ forge script --chain sepolia script/NFT.s.sol:MyScript --rpc-url $SEPOLIA_RPC_UR
 ```
 1. Remappings
 run forge remappings > remappings.txt.
+windows下编码可能不是utf-8，导致.sol文件中识别不了import
+此时要执行 forge remappings | Out-File -Encoding utf8 remappings.txt
+
 2. Dependencies
 add the following to your .vscode/settings.json for the extension to find your dependencies:
 {
